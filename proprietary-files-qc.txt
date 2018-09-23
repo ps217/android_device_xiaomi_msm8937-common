@@ -74,6 +74,11 @@ vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcomvisualizer.so
 vendor/lib64/soundfx/libqcvirt.so
 
+# Audio dirac - from xiaomi
+lib/soundfx/libdirac.so 
+lib/libDiracAPI_SHARED.so
+vendor/etc/diracmobile.config
+
 # Bluetooth - from tissot
 lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
