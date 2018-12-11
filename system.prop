@@ -121,6 +121,13 @@ ro.vendor.at_library=libqti-at.so
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.gt_library=libqti-gt.so
 
+# Perf Ux IOPrefetcher
+vendor.enable_prefetch=1
+vendor.iop.enable_uxe=1
+vendor.iop.enable_prefetch_ofr=1
+vendor.perf.iop_v3.enable=1
+persist.vendor.qti.games.gt.prof=1
+
 # Perf configuration
 ro.vendor.qti.sys.fw.bservice_enable=true
 ro.vendor.qti.sys.fw.bservice_limit=5
