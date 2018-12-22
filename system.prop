@@ -107,6 +107,9 @@ vendor.vidc.enc.narrow.searchrange=1
 vendor.vidc.disable.split.mode=1
 vendor.video.disable.ubwc=1
 
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+
 #netmgrd
 ro.vendor.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
