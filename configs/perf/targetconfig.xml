@@ -46,6 +46,7 @@
              Target="msm8937"
              NumClusters="2"
              TotalNumCores="8"
+<<<<<<< HEAD
              SocIds="294,295,313"
              SynCore="1"
              CoreCtlCpu="0"
@@ -116,4 +117,15 @@
 
     </Config5>
 
+=======
+             SocIds="294,313"
+             SynCore="1"
+             MinCoreOnline="0"
+             GovInstanceType="1" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
+
+    </Config1>
+>>>>>>> 77133dd... msm8937-common: Update perf stack to Pie
 </TargetConfig>
