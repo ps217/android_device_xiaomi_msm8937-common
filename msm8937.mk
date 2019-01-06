@@ -339,11 +339,7 @@ PRODUCT_COPY_FILES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    ims-ext-common \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+    ims-ext-common
 
 # TextClassifier
 PRODUCT_PACKAGES += \
