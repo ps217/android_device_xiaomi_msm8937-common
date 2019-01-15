@@ -153,7 +153,6 @@ TARGET_HW_DISK_ENCRYPTION := true
 TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
 
 # FM
-BOARD_HAVE_QCOM_FM                 := true
 TARGET_QCOM_NO_FM_FIRMWARE         := true
 
 # Filesystem
