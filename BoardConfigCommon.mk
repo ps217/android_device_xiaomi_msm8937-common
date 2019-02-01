@@ -173,9 +173,6 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Lockscreen real time charging current values
-BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
-
 # Malloc
 MALLOC_SVELTE := true
 
