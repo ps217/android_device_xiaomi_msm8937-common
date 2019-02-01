@@ -457,6 +457,14 @@ vendor/firmware/a530v3_gpmu.fw2
 vendor/firmware/a530v3_seq.fw2
 vendor/firmware/a540_gpmu.fw2
 
+# IR - from santoni (Redmi 4X)
+lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.default.so|53830d64d63d6cc405209d8d4cafea102dcd7b54
+lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so|f7c90fd1d6a0c5e6cf620aa23a862e780feaaf6c
+
+# Keylayout - from santoni (Redmi 4X)
+usr/keylayout/gpio-keys.kl:vendor/usr/keylayout/gpio-keys.kl|0c1479791a262197d60587d40e65a7c3e4a4082e
+usr/keylayout/qpnp_pon.kl:vendor/usr/keylayout/qpnp_pon.kl|73d9e95acf3c36e5de84a3e8e043e4d6b73a04b2
+
 # Keystore - from tissot
 vendor/lib/hw/keystore.msm8953.so:vendor/lib/hw/keystore.msm8937.so
 vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so
@@ -476,6 +484,9 @@ vendor/lib/libsmwrapper.so
 # Listen - from marmite (Wileyfox Swift 2) - 8.1
 vendor/lib/hw/sound_trigger.primary.msm8937.so
 vendor/lib64/hw/sound_trigger.primary.msm8937.so
+
+# Media - from santoni (Redmi 4X)
+etc/firmware/DE.o.msm8937:vendor/firmware/DE.o.msm8937|62c8a6ce7e6d81c3b9778d92db126e02a54e692f
 
 # Media - from tissot
 lib/extractors/libmmparser.so
@@ -890,6 +901,9 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+
+# USB - from santoni (Redmi 4X)
+etc/firmware/ice40.bin:vendor/firmware/ice40.bin|a29bdcdbfda7f7dae24a3c8921abe2bcda6ae38e
 
 # Wi-Fi - from tissot
 vendor/bin/wcnss_service
