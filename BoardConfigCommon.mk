@@ -223,5 +223,10 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_DRIVER_FW_PATH_P2P := "p2p"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# Hals variant
+TARGET_QCOM_AUDIO_VARIANT	:= caf-msm8996
+TARGET_QCOM_DISPLAY_VARIANT	:= caf-msm8996
+TARGET_QCOM_MEDIA_VARIANT	:= caf-msm8996
+
 # Inherit the common proprietary files
 -include vendor/xiaomi/msm8937-common/BoardConfigVendor.mk
