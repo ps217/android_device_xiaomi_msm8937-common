@@ -405,6 +405,10 @@ PRODUCT_PACKAGES += \
  PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Maintainers
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fred.maintainer=StrangeNoob|Rainforce279
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit common proprietary files
